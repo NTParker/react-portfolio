@@ -12,6 +12,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
+          <Route path="/react-portfolio" element={<Home />}></Route>
           <Route path="/" element={<Home />}></Route>
           <Route path="/home" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
