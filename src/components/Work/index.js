@@ -11,7 +11,7 @@ const Work = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] bg-[#0a192f] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-green-400">
             Work
@@ -20,9 +20,8 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="rounded-sm grid sm:grid-cols-2 md:grid-cols-3 gap-12">
+        <div className="rounded-sm bg-[#0a192f] grid sm:grid-cols-2 md:grid-cols-3 gap-12">
           <div
-            style={{ backgroundImage: `${WMA}` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
           >
