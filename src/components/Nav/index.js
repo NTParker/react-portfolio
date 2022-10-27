@@ -4,6 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,11 +14,21 @@ const Navbar = () => {
       {/* menu */}
       <div className="hidden md:flex">
         <ul className="flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <Link to="/home">
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+          <Link to="/skills">
+            <li>Skills</li>
+          </Link>
+          <Link to="/work">
+            <li>Work</li>
+          </Link>
+          <Link to="/contact">
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
 
@@ -33,11 +44,21 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <Link to="/home">
+          <li className="py-6 text-4xl">Home</li>
+        </Link>
+        <Link to="/about">
+          <li className="py-6 text-4xl">About</li>
+        </Link>
+        <Link to="/skills">
+          <li className="py-6 text-4xl">Skills</li>
+        </Link>
+        <Link to="/work">
+          <li className="py-6 text-4xl">Work</li>
+        </Link>
+        <Link to="/contact">
+          <li className="py-6 text-4xl">Contact</li>
+        </Link>
       </ul>
 
       {/* Social icons */}
