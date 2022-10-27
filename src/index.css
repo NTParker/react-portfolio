@@ -11,3 +11,7 @@
     @apply cursor-pointer;
   }
 }
+
+.background {
+  background-color: #0a192f;
+}
