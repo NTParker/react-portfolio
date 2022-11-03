@@ -5,7 +5,7 @@ import ReadMe from '../../assets/images/readme-1.png';
 import Game from '../../assets/images/Game-1.png';
 import Team from '../../assets/images/team-1.png';
 import Quiz from '../../assets/images/quiz-pic.png';
-import Note from '../../assets/images/note-taker.png';
+import nofomo from '../../assets/images/nofomo-1.png';
 
 const Work = () => {
   return (
@@ -208,7 +208,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `${Note}` }}
+            style={{ backgroundImage: `${nofomo}` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
           >
@@ -216,22 +216,20 @@ const Work = () => {
               <span className="rounded-lg">
                 <img
                   className="rounded-t-lg rounded-b-lg hover:scale-110 duration-500"
-                  src={Note}
+                  src={nofomo - 1}
                 ></img>
               </span>
               <div>
-                <h1 className="inline border-b-2 border-green-400">
-                  Note Taker App
-                </h1>
+                <h1 className="inline border-b-2 border-green-400">NOFOMO</h1>
                 <p className="pt-4">
-                  This app allows the user to write and save notes in order to
-                  increase productivity. Data is stored locally.
+                  A rental service that allows users to rent items from other
+                  users and list their own items to be rented.
                 </p>
               </div>
               <div className="pt-2 text-center ">
                 {/* eslint-disable-next-line */}
                 <a
-                  href="https://sheltered-headland-32437.herokuapp.com/"
+                  href="https://shrouded-eyrie-44498.herokuapp.com/"
                   target="_blank"
                 >
                   <button
