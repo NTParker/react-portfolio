@@ -15,16 +15,28 @@ const Navbar = () => {
       {/* menu */}
       <div className="hidden md:flex">
         <ul className="flex">
-          <Link to="/home">
+          <Link
+            className="hover:scale-110 duration-500 hover:text-green-400"
+            to="/home"
+          >
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link
+            className="hover:scale-110 duration-500 hover:text-green-400"
+            to="/about"
+          >
             <li>About</li>
           </Link>
-          <Link to="/skills">
+          <Link
+            className="hover:scale-110 duration-500 hover:text-green-400"
+            to="/skills"
+          >
             <li>Skills</li>
           </Link>
-          <Link to="/work">
+          <Link
+            className="hover:scale-110 duration-500 hover:text-green-400"
+            to="/work"
+          >
             <li>Work</li>
           </Link>
         </ul>
