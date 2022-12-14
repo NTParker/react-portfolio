@@ -5,7 +5,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import { Resume } from '../../assets';
+import { Resume } from '../../assets/';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

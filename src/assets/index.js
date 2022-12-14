@@ -1,3 +1,3 @@
-const Resume = require('./Noah Parker.docx');
+const Resume = require('./Resume.pdf');
 
 export { Resume };
