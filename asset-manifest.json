@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5d798002.css",
-    "main.js": "/react-portfolio/static/js/main.03436903.js",
+    "main.css": "/react-portfolio/static/css/main.53401a60.css",
+    "main.js": "/react-portfolio/static/js/main.ce6cc0ac.js",
     "static/media/Game-1.png": "/react-portfolio/static/media/Game-1.df64ae631b5c69c07a21.png",
     "static/media/quiz-pic.png": "/react-portfolio/static/media/quiz-pic.c6f5a88ec4c492add082.png",
     "static/media/nofomo-2.png": "/react-portfolio/static/media/nofomo-2.97dc6437784cc09c6ba3.png",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/react-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-portfolio/index.html",
-    "main.5d798002.css.map": "/react-portfolio/static/css/main.5d798002.css.map",
-    "main.03436903.js.map": "/react-portfolio/static/js/main.03436903.js.map"
+    "main.53401a60.css.map": "/react-portfolio/static/css/main.53401a60.css.map",
+    "main.ce6cc0ac.js.map": "/react-portfolio/static/js/main.ce6cc0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d798002.css",
-    "static/js/main.03436903.js"
+    "static/css/main.53401a60.css",
+    "static/js/main.ce6cc0ac.js"
   ]
 }
