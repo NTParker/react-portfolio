@@ -27,9 +27,6 @@ const Navbar = () => {
           <Link to="/work">
             <li>Work</li>
           </Link>
-          <Link to="/contact">
-            <li>Contact</li>
-          </Link>
         </ul>
       </div>
 
@@ -56,9 +53,6 @@ const Navbar = () => {
         </Link>
         <Link to="/work">
           <li className="py-6 text-4xl">Work</li>
-        </Link>
-        <Link to="/contact">
-          <li className="py-6 text-4xl">Contact</li>
         </Link>
       </ul>
 

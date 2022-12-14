@@ -5,7 +5,7 @@ import ReadMe from '../../assets/images/readme-1.png';
 import Game from '../../assets/images/Game-1.png';
 import Team from '../../assets/images/team-1.png';
 import Quiz from '../../assets/images/quiz-pic.png';
-import nofomo from '../../assets/images/nofomo-1.png';
+import nofomo from '../../assets/images/nofomo-2.png';
 
 const Work = () => {
   return (
@@ -16,7 +16,6 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-green-400">
             Work
           </p>
-          <p className="py-4">Check out some of my recent projects.</p>
         </div>
 
         {/* container for projects */}
@@ -216,7 +215,7 @@ const Work = () => {
               <span className="rounded-lg">
                 <img
                   className="rounded-t-lg rounded-b-lg hover:scale-110 duration-500"
-                  src={nofomo - 1}
+                  src={nofomo}
                 ></img>
               </span>
               <div>
