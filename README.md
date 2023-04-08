@@ -1,5 +1,7 @@
 # React Portfolio
 
+https://ntparker.github.io/react-portfolio/
+
 In this challenge, I created a portfolio page using React and Tailwind to showcase my past work and provide background/contact info for potential employers. This webpage utilizes React Router to conditionally render components. 
 
 
